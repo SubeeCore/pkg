@@ -12,6 +12,8 @@ const (
 	// #### User related prefixes ####
 	// user related prefixes
 	User DataPrefix = "user_"
+
+	Subscription DataPrefix = "subs_"
 )
 
 func (dp DataPrefix) String() string {
