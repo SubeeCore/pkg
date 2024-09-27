@@ -1,6 +1,7 @@
 package constants
 
 type SubscriptionsType string
+type SubscriptionsCategory string
 
 const (
 	// Videos
@@ -62,6 +63,11 @@ const (
 	// Miscellaneous
 	Patreon  SubscriptionsType = "patreon"
 	OnlyFans SubscriptionsType = "onlyfans"
+)
+
+const (
+	Bills         SubscriptionsCategory = "bills"
+	Entertainment SubscriptionsCategory = "entertainment"
 )
 
 func (st SubscriptionsType) String() string {
