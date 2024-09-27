@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	pkgerrors "github.com/alyxcore/pkg/errors"
+	pkgerrors "github.com/subeecore/pkg/errors"
 )
 
 func TranslateError(ctx context.Context, err error) (int, interface{}) {

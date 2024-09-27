@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pkgerrors "github.com/alyxcore/pkg/errors"
+	pkgerrors "github.com/subeecore/pkg/errors"
 )
 
 func Test_Errors(t *testing.T) {

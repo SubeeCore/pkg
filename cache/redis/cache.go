@@ -7,7 +7,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog/log"
 
-	pkgerrors "github.com/alyxcore/pkg/errors"
+	pkgerrors "github.com/subeecore/pkg/errors"
 )
 
 func (c *cacheClient) Set(ctx context.Context, key string, value interface{}) error {
